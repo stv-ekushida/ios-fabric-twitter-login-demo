@@ -8,7 +8,7 @@ iOS FabricのTwitterKitでログインするサンプルです。(Swift3)
 ### 設定
 AppDelegate.swift
 
-```
+```swift:AppDelegate.swift
 import UIKit
 import Fabric
 import TwitterKit
@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ## ②使い方
 ### ログイン
 
-```
+``````swift:
         Twitter.sharedInstance().logIn { session, error in
             if (session != nil) {
                 
@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ### ログアウト
 
-```
+``````swift:
         let store = Twitter.sharedInstance().sessionStore
         store.logOutUserID(userID)
         self.delegate?.complated(status: .logout)
