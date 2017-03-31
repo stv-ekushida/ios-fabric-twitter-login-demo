@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 ```
 
-### ③ログアウト
+### ログアウト
 
 ```
         let store = Twitter.sharedInstance().sessionStore
