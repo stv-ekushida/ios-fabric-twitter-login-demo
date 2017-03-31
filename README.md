@@ -3,7 +3,7 @@ iOS FabricのTwitterKitでログインするサンプルです。(Swift3)
 
 ## ①導入
 ### フレームワークのダウンロード & インストール
-[Fabricの公式サイト](https://get.fabric.io/)から手順どおりにやる。
+[Fabricの公式サイト](https://get.fabric.io/)の手順どおりに進める。
 
 ### 設定
 AppDelegate.swift
