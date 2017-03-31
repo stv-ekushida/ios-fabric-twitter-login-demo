@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ## ②使い方
 ### ログイン
 
-``````swift:TwitterLoginHelper.swift
+```swift:TwitterLoginHelper.swift
         Twitter.sharedInstance().logIn { session, error in
             if (session != nil) {
                 
@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ### ログアウト
 
-``````swift:TwitterLoginHelper.swift
+```swift:TwitterLoginHelper.swift
         let store = Twitter.sharedInstance().sessionStore
         store.logOutUserID(userID)
         self.delegate?.complated(status: .logout)
