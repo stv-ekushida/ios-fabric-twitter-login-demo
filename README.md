@@ -1,8 +1,11 @@
 # ios-fabric-twitter-login-demo
 iOS FabricのTwitterKitでログインするサンプルです。(Swift3)
 
-## 導入
-### ①設定
+## ①導入
+### フレームワークのダウンロード & インストール
+[Fabricの公式サイト](https://get.fabric.io/)から手順どおりにやる。
+
+### 設定
 AppDelegate.swift
 
 ```
@@ -25,7 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-### ②ログイン
+## ②使い方
+### ログイン
 
 ```
         Twitter.sharedInstance().logIn { session, error in
