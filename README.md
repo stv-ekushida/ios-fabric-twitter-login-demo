@@ -62,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 |---|---|
 | Swift | 3.0.2 |
 | XCode | 8.2.1 |
-| iOS | 10.0〜 |
+| iOS | 10.2 |
 
 ## リファレンス
 https://docs.fabric.io/apple/twitter/log-in-with-twitter.html#log-in-method
