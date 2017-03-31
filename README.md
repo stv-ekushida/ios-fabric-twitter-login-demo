@@ -57,5 +57,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         session = nil
 ```
 
+## Development Environment
+|Category | Version| 
+|---|---|
+| Swift | 3.0.2 |
+| XCode | 8.2.1 |
+| iOS | 10.0〜 |
+
 ## リファレンス
 https://docs.fabric.io/apple/twitter/log-in-with-twitter.html#log-in-method
